@@ -10,9 +10,6 @@ export default function ViewSection({data}) {
     const [open, setOpen] = React.useState(false);
   const [selectedValue, setSelectedValue] = React.useState({});
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
 
   const handleClose = (value) => {
     setOpen(false);
